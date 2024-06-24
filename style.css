@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-card {
+    background-color: lightyellow;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 5px #0000001a
+}

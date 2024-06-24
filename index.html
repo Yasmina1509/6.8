@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <input type="number" id="limit" placeholder="Enter limit">
+            <input type="number" id="age" placeholder="Enter age limit">
+            <button id="send">Send</button>
+        </div>
+        <h1>User limit: <span id="user-limit"></span></h1>
+        <div id="user-list" class="user-list"></div>
+        <h2><span id="age-limit"></span>Big Users:</h2>
+        <div id="filtered-user-list" class="user-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
